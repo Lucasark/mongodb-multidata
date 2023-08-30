@@ -19,6 +19,6 @@ public class Model1 {
     private String id;
 
     @Indexed(unique = true, background = true)
-    private String name;
+    private String uniqueOfModel1;
 
 }
